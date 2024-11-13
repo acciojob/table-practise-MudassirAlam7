@@ -1,10 +1,14 @@
 /*  your css code here. If applicable */
+body{
+	text-align : center
+	justify-content : center
+	display : flex
+	
+}
 table, tr, td, th{
 	border : 1px solid black;
 	background : yellow;
-	width : 100vh
+	
 	
 }
-h1{
-	text-align :center;
-}
+
