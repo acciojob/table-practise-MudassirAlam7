@@ -1,37 +1,10 @@
-/* styles.css */
-
-table {
-    width: 80%;
-    margin: 20px auto;
-    background-color: yellow; /* Table background */
-    border-collapse: collapse; /* Removes gaps between cells */
+/*  your css code here. If applicable */
+table{
+	background-color : yellow
 }
-
-caption {
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 10px;
+table,th,td,tr{
+	border : 1px solid black
 }
-
-th, td {
-    border: 1px solid black; /* Border for th and td */
-    padding: 8px 12px;
-    text-align: left;
+caption{
+	text-align : center
 }
-
-thead {
-    background-color: #f0f0f0; /* Optional: Light background for header */
-}
-
-th {
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #fcf8e3; /* Optional: Light background for even rows */
-}
-
-	
-}
-
